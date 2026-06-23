@@ -97,7 +97,7 @@ Para entender la arquitectura y las convenciones del equipo, puedes leer:
 
 ## Qué entregar
 
-crea un archivo llamado `REVIEW.md` en la raíz del repositorio con la siguiente estructura:
+crea un archivo llamado `REVIEW.md` y enviarlo por correo:
 
 ```markdown
 # Code Review — [Tu nombre]
