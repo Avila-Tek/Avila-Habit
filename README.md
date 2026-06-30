@@ -1,6 +1,10 @@
 # Prueba técnica — Code Review (Full Stack)
 
 ## Contexto
+Un compañero de equipo entregó un lote de funcionalidades durante un fin de semana ajetreado. El código corre en desarrollo, pero contiene problemas reales que afectarían a usuarios, expondrían vulnerabilidades de seguridad o corromperían datos en producción de forma silenciosa.
+
+Tu tarea: revisar el código, identificar los problemas, proponer correcciones y compartir tu lectura general del estado del proyecto.
+
 
 Estás ingresando como ingeniero full-stack al equipo que desarrolla **Avila Habit**, una aplicación de seguimiento de hábitos. El repositorio es un monorepo con Turborepo que contiene:
 
@@ -34,12 +38,6 @@ El frontend consulta los hábitos del usuario para una fecha específica y los d
 - `week`: hábitos con meta semanal que aplican para esa semana.
 
 Junto a estas listas, la API devuelve un `summary` con el conteo de hábitos completados, el total y la tasa de completitud del usuario para ese período.
-
----
-
-Un compañero de equipo entregó un lote de funcionalidades durante un fin de semana ajetreado. El código corre en desarrollo, pero contiene problemas reales que afectarían a usuarios, expondrían vulnerabilidades de seguridad o corromperían datos en producción de forma silenciosa.
-
-Tu tarea: revisar el código, identificar los problemas, proponer correcciones y compartir tu lectura general del estado del proyecto.
 
 ---
 
@@ -82,16 +80,6 @@ Todos los hallazgos se encuentran dentro de los archivos listados a continuació
 | Archivo | Descripción |
 |---------|-------------|
 | `features/habits/ui/widgets/HabitDayView.tsx` | Componente cliente que muestra y registra hábitos para un día dado |
-
----
-
-## Contexto de apoyo (consultar, no modificar)
-
-Para entender la arquitectura y las convenciones del equipo, puedes leer:
-
-- `CLAUDE.md` y `apps/api/CLAUDE.md` — resumen de arquitectura y reglas del proyecto
-- `apps/api/src/modules/habit/domain/` — modelo de dominio del hábito (entidades, value objects, lógica de calendario)
-- `apps/api/src/modules/habitLog/domain/` — modelo de dominio del registro de hábitos
 
 ---
 
