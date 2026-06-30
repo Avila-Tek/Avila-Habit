@@ -3,13 +3,12 @@
 ## Contexto
 Un compañero de equipo entregó un lote de funcionalidades durante un fin de semana ajetreado. El código corre en desarrollo, pero contiene problemas reales que afectarían a usuarios, expondrían vulnerabilidades de seguridad o corromperían datos en producción de forma silenciosa.
 
-Tu tarea: revisar el código, identificar los problemas, proponer correcciones y compartir tu lectura general del estado del proyecto.
-
-
 Estás ingresando como ingeniero full-stack al equipo que desarrolla **Avila Habit**, una aplicación de seguimiento de hábitos. El repositorio es un monorepo con Turborepo que contiene:
 
 - `apps/api` — Backend en Fastify + TypeScript con arquitectura hexagonal / DDD
 - `apps/client` — Frontend en Next.js 15 (App Router) con React Query y Tailwind CSS
+
+Tu tarea: revisar el código, identificar los problemas, proponer correcciones y compartir tu lectura general del estado del proyecto.
 
 ### Qué hace el producto
 
