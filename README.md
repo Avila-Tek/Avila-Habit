@@ -1,4 +1,4 @@
-# Prueba técnica — Code Review (Full Stack)
+# Code Review (Full Stack)
 
 ## Contexto
 Un compañero de equipo entregó un lote de funcionalidades durante un fin de semana ajetreado. El código corre en desarrollo, pero contiene problemas reales que afectarían a usuarios, expondrían vulnerabilidades de seguridad o corromperían datos en producción de forma silenciosa.
